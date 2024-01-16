@@ -18,6 +18,8 @@ body {
     display: flex;
 }
 
+/* Side-Section */
+
 .side-section {
     background-image: url(/img/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
@@ -34,24 +36,100 @@ body {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.4);
     margin-top: 35%;
-    padding: 16px;
+    padding: 1rem;
 }
 
 .logo-img {
-    height: 192px;
+    height: 12rem;
     width: auto;
 }
 
 .logo-text {
     font-family: "Norse Bold";
     color: white;
-    font-size: 128px;
+    font-size: 8rem;
 }
 
-.side-img-bg-credit,
-.side-img-bg-credit a {
+.bg-credit,
+.bg-credit a {
     color: white;
     text-align: center;
     font-size: 12px;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
+}
+
+/* Form */
+
+.form-section {
+    padding: 6% 4rem;
+    width: 65vw;
+    background-color: whitesmoke;
+}
+
+.form-text,
+.top-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.form-text {
+    margin-right: 20%;
+}
+
+.top-text {
+    margin-bottom: 1.5rem;
+}
+
+.bot-text {
+    margin-bottom: 4rem;
+}
+
+fieldset {
+    background-color: white;
+    border: none;
+    margin: 0 -4rem;
+    padding: 1rem 4rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.form-container {
+    display: flex;
+    gap: 8rem;
+}
+
+label {
+    display: block;
+    text-transform: uppercase;
+}
+
+input {
+    margin-bottom: 1rem;
+    height: 1.5rem;
+    width: 250px;
+}
+
+button {
+    margin-top: 2rem;
+    font-size: 1rem;
+    padding: 1rem;
+    width: 230px;
+    color: white;
+    background-color: green;
+    border-radius: 0.5rem;
+    font-weight: 500;
+}
+
+.account-text {
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+.account-text a {
+    text-decoration: none;
+    color: green;
 }
