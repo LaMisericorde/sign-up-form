@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <section class="side-section">
+        <div class="logo-container">
+            <img src="./img/odin-lined.png" alt="The Odin Project logo" class="logo-img">
+            <p class="logo-text">Odin</p>
+        </div>
+        <p class="side-img-bg-credit">
+            Photo by
+            <a href="https://unsplash.com/@haliewestphoto" target="_blank">Halie West</a>
+            on
+            <a href="https://unsplash.com/" target="_blank">Unsplash</a>
+        </p>
+    </section>
+
+    <section class="form-section">
+        <form action="">
+            <p>This is not a real online service! You know you need something like this in your life to help you
+                realize your deepest dreams. Sign up <em>now</em> to get started.
+            </p>
+            <p>You <em>know</em> you want to.</p>
+
+            <fieldset>
+                <h1>Let's do this!</h1>
+
+                <div class="right-side-form">
+                    <div class="info-container">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name">
+                    </div>
+                    <div class="info-container">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="info-container">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                </div>
+
+                <div class="left-side-form">
+                    <div class="info-container">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name">
+                    </div>
+                    <div class="info-container">
+                        <label for="phone-number">Phone Number</label>
+                        <input type="tel" id="phone-number" name="phone-number">
+                    </div>
+                    <div class="info-container">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password">
+                    </div>
+                </div>
+            </fieldset>
+
+            <button type="submit">Create Account</button>
+
+            <p>Already have an account? <a href="#">Log in</a></p>
+
+        </form>
+    </section>
+</body>
+
+</html>
